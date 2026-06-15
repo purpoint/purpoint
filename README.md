@@ -7,10 +7,20 @@
   • Edit content in scripts/data.js, then run:  npm run build   (see NOTES.md)
 -->
 
-![Manan N Ghodasara — Computer Science Student and FullStack MERN Developer. Build. Break. Learn. Repeat. Based in Bengaluru, India.](./assets/profile.svg?v=1#gh-dark-mode-only)
-![Manan N Ghodasara — Computer Science Student and FullStack MERN Developer. Build. Break. Learn. Repeat. Based in Bengaluru, India.](./assets/profile-light.svg?v=1#gh-light-mode-only)
+![Manan N Ghodasara — Computer Science Student and FullStack MERN Developer. Build. Break. Learn. Repeat. Based in Bengaluru, India.](./assets/profile.svg?v=2#gh-dark-mode-only)
+![Manan N Ghodasara — Computer Science Student and FullStack MERN Developer. Build. Break. Learn. Repeat. Based in Bengaluru, India.](./assets/profile-light.svg?v=2#gh-light-mode-only)
 
-##### Connect &nbsp;·&nbsp; [GitHub](https://github.com/purpoint) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/manan-ghodasara-a85492359/) &nbsp;·&nbsp; [Email](mailto:manan.xf.12@gmail.com)
+<!--
+  These badges are the CLICKABLE links. The social buttons drawn inside the SVG
+  above are part of an <img> — GitHub renders README images as static pictures,
+  so regions of them can't be links (same reason the SVG can't run JS). Real,
+  clickable links must live in the README markdown itself, like these:
+-->
+<p align="center">
+  <a href="https://github.com/purpoint"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-purpoint-8b5cf6?style=for-the-badge&logo=github&logoColor=white"></a>
+  <a href="https://www.linkedin.com/in/manan-ghodasara-a85492359/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Manan%20Ghodasara-7c3aed?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  <a href="mailto:manan.xf.12@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-manan.xf.12%40gmail.com-a855f7?style=for-the-badge&logo=gmail&logoColor=white"></a>
+</p>
 
 <details>
 <summary>📄 Plain-text version (accessibility / images disabled)</summary>

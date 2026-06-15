@@ -20,8 +20,8 @@ module.exports = {
   blurb:
     "Full-stack developer crafting real-time, AI-powered web apps — from socket servers and RAG pipelines to clean, fast React interfaces.",
   education: [
-    "B.E. Computer Science · JSS Academy of Technical Education",
-    "2023 – 2027   ·   CGPA 8.6 / 10",
+    "B.E. Computer Science · 2023–2027 · CGPA 8.6 / 10",
+    "JSS Academy of Technical Education",
   ],
 
   // FOUR value cards. accent: "purple" | "teal" | "magenta"

@@ -316,13 +316,18 @@ function build(P, avatarURI) {
     wrap(data.blurb, blurbW, 13).forEach((ln, i) => {
       s += T(tx, y + 152 + i * 19, ln, { fs: 13, fill: P.text });
     });
-    // education (2 lines, bottom)
-    data.education.forEach((ln, i) => {
-      s += T(tx, y + aboutH - 30 + i * 17, ln, {
-        fs: 12,
-        ff: MONO,
-        fill: P.textMute,
-      });
+    // education (mono, wrapped defensively so it can never overflow the card,
+    // pinned to the bottom of the card)
+    const eduFs = 11.5;
+    const eduLH = 16;
+    const eduW = aboutW - (tx - PAD) - 22;
+    const eduLines = [];
+    data.education.forEach((ln) => {
+      wrap(ln, eduW, eduFs, true).forEach((w) => eduLines.push(w));
+    });
+    const eduStartY = y + aboutH - 16 - (eduLines.length - 1) * eduLH;
+    eduLines.forEach((ln, i) => {
+      s += T(tx, eduStartY + i * eduLH, ln, { fs: eduFs, ff: MONO, fill: P.textMute });
     });
     parts.push(fade(s));
 
