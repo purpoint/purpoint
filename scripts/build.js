@@ -522,19 +522,21 @@ function build(P, avatarURI) {
     y += 44 + 20;
   }
 
-  // ===================== FOOTER =====================
-  parts.push(
-    fade(
-      T(W / 2, y + 6, data.footer, {
-        fs: 11,
-        ff: MONO,
-        fill: P.textMute,
-        anchor: "middle",
-        ls: 0.5,
-      })
-    )
-  );
-  y += 20;
+  // ===================== FOOTER (optional) =====================
+  if (data.footer) {
+    parts.push(
+      fade(
+        T(W / 2, y + 6, data.footer, {
+          fs: 11,
+          ff: MONO,
+          fill: P.textMute,
+          anchor: "middle",
+          ls: 0.5,
+        })
+      )
+    );
+    y += 20;
+  }
 
   const H = Math.round(y + PAD - 10);
 

@@ -68,5 +68,6 @@ module.exports = {
     { label: "Email",    url: "mailto:manan.xf.12@gmail.com",                                 icon: "mail"     },
   ],
 
-  footer: "Designed & generated from scripts/build.js  ·  Bengaluru, IN",
+  // footer: shown centered at the very bottom of the SVG. Leave empty to hide it.
+  footer: "",
 };

@@ -7,8 +7,8 @@
   • Edit content in scripts/data.js, then run:  npm run build   (see NOTES.md)
 -->
 
-![Manan N Ghodasara — Computer Science Student and FullStack MERN Developer. Build. Break. Learn. Repeat. Based in Bengaluru, India.](./assets/profile.svg?v=2#gh-dark-mode-only)
-![Manan N Ghodasara — Computer Science Student and FullStack MERN Developer. Build. Break. Learn. Repeat. Based in Bengaluru, India.](./assets/profile-light.svg?v=2#gh-light-mode-only)
+![Manan N Ghodasara — Computer Science Student and FullStack MERN Developer. Build. Break. Learn. Repeat. Based in Bengaluru, India.](./assets/profile.svg?v=3#gh-dark-mode-only)
+![Manan N Ghodasara — Computer Science Student and FullStack MERN Developer. Build. Break. Learn. Repeat. Based in Bengaluru, India.](./assets/profile-light.svg?v=3#gh-light-mode-only)
 
 <!--
   These badges are the CLICKABLE links. The social buttons drawn inside the SVG
