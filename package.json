@@ -1,0 +1,11 @@
+{
+  "name": "purpoint-profile",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Animated GitHub profile README for @purpoint — one self-contained SVG generated from a templated, zero-dependency Node script.",
+  "scripts": {
+    "build": "node scripts/build.js"
+  },
+  "author": "Manan N Ghodasara <manan.xf.12@gmail.com>",
+  "license": "MIT"
+}
